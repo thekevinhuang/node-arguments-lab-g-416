@@ -5,3 +5,9 @@ function generatePassword(length) {
   }
   return password
 }
+
+function password(number, length) {
+  for (i=0; i< number; i++) {
+    console.log(generatePassword(length))
+  }
+}
