@@ -20,5 +20,5 @@ if(process.argv.length !== 2){
 } else {
   let number = process.argv.shift()
   let length = process.argv.shift()
-  module.exports = password(number, length)
+  module.exports = password(length, number)
 }
