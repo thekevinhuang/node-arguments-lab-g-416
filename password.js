@@ -11,3 +11,5 @@ function password(number, length) {
     console.log(generatePassword(length))
   }
 }
+
+
