@@ -11,6 +11,7 @@ function password(number, length) {
   for (i=0; i< number; i++) {
     console.log(generatePassword(length))
   }
+  process.exit(0)
 }
 
 process.argv.shift()
