@@ -3,4 +3,5 @@ function generatePassword(length) {
   for (i=0; i < length; i++) {
     password = password + `${Math.floor(Math.random()*10)}`
   }
+  return password
 }
