@@ -7,7 +7,7 @@ function generatePassword(length) {
 }
 
 function password(number, length) {
-  
+
   for (i=0; i< number; i++) {
     console.log(generatePassword(length))
   }
